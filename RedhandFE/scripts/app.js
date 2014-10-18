@@ -1,4 +1,3 @@
-
 (function () {
 
     // store a reference to the application object that will be created
@@ -14,27 +13,30 @@
         settings: {
           title: 'Settings'
         },
-        contacts: {
-          title: 'Contacts',
-          ds: new kendo.data.DataSource({
-            data: [{ id: 1, name: 'Bob' }, { id: 2, name: 'Mary' }, { id: 3, name: 'John' }]
-          }),
-          alert: function(e) {
-            alert(e.data.name);
-          }
+        signout: {
+          title: 'Sign Out',
         }
       }
     };
-
+    
     // this function is called by Cordova when the application is loaded by the device
-    document.addEventListener('deviceready', function () {  
-      
+    document.addEventListener('deviceready', function () {
+        
       // hide the splash screen as soon as the app is ready. otherwise
       // Cordova will wait 5 very long seconds to do it for you.
       navigator.splashscreen.hide();
+        
+        //var el = new Everlive('kfPV3CviJkjnGWqn');
+        //var data = el.data('donors');
+        //        data.create({ 'name' : 'Harper Lee', 'bloodtype' : 'a+', 'deviceid' : 'device.uuid'},
+        //    function(data){
+        //        alert(JSON.stringify(data));
+        //    },
+        //    function(error){
+        //        alert(JSON.stringify(error));
+        //    });
 
       app = new kendo.mobile.Application(document.body, {
-        
         // you can change the default transition (slide, zoom or fade)
         transition: 'slide',
         
@@ -45,8 +47,5 @@
         // the application needs to know which view to load first
         initial: 'views/home.html'
       });
-
     }, false);
-
-
 }());
