@@ -6,6 +6,9 @@
     <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
     <link href="styles/main.css" rel="stylesheet" />
 
+    
+    <script src="https://bs-static.cdn.telerik.com/1.2.6/everlive.all.min.js"></script>
+    
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
@@ -14,7 +17,6 @@
 
 </head>
 <body>
- 
     <div data-role="layout" data-id="main">
         <div data-role="header">
             <div data-role="navbar">
@@ -28,7 +30,7 @@
             <div data-role="tabstrip">
                 <a href="views/home.html" data-icon="home">Home</a>   
                 <a href="views/settings.html" data-icon="settings">Settings</a>
-                <a href="views/contacts.html" data-icon="contacts">Contacts</a>
+                <a onclick="return comfirm('Are you sure want to sign out?')" data-icon="action">Sign Out</a>
             </div>
         </div>
     </div>
