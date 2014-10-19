@@ -24,7 +24,7 @@
         
       // hide the splash screen as soon as the app is ready. otherwise
       // Cordova will wait 5 very long seconds to do it for you.
-      navigator.splashscreen.hide();
+      //navigator.splashscreen.hide();
         
         //var el = new Everlive('kfPV3CviJkjnGWqn');
         //var data = el.data('donors');

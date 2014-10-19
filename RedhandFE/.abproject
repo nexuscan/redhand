@@ -1,64 +1,64 @@
 {
-  "ProjectName": "RedhandFE",
-  "ProjectGuid": "b9e4427d-d687-4ed5-a811-d63a2c93a458",
-  "projectVersion": 1,
-  "AppIdentifier": "com.telerik.RedhandFE",
-  "DisplayName": "RedhandFE",
-  "Author": "",
-  "Description": "RedhandFE",
-  "BundleVersion": "1.0",
-  "AndroidVersionCode": "1",
-  "iOSDeviceFamily": [
-    "1",
-    "2"
-  ],
-  "iOSBackgroundMode": [
-    "location"
-  ],
-  "WP8TileTitle": "",
-  "WP8Publisher": "",
-  "WP8Capabilities": [
-    "ID_CAP_IDENTITY_DEVICE",
-    "ID_CAP_IDENTITY_USER",
-    "ID_CAP_LOCATION",
-    "ID_CAP_NETWORKING",
-    "ID_CAP_PUSH_NOTIFICATION"
-  ],
-  "WP8Requirements": [],
-  "WP8PublisherID": "",
-  "WP8ProductID": "",
-  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.5.0",
-  "CorePlugins": [
-    "org.apache.cordova.device",
-    "org.apache.cordova.dialogs",
-    "org.apache.cordova.globalization",
-    "org.apache.cordova.network-information",
-    "org.apache.cordova.vibration"
-  ],
-  "AndroidPermissions": [
-    "android.permission.VIBRATE",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
-    "android.permission.INTERNET",
-    "android.permission.RECEIVE_SMS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCOUNT_MANAGER",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.MANAGE_ACCOUNTS"
-  ],
-  "DeviceOrientations": [
-    "Portrait",
-    "Landscape"
-  ],
-  "AndroidHardwareAcceleration": "false",
-  "iOSStatusBarStyle": "Default",
-  "WP8SupportedResolutions": [
-    "ID_RESOLUTION_WVGA",
-    "ID_RESOLUTION_WXGA",
-    "ID_RESOLUTION_HD720P"
-  ],
-  "Framework": "Cordova"
+	"ProjectName": "RedhandFE",
+	"ProjectGuid": "b9e4427d-d687-4ed5-a811-d63a2c93a458",
+	"projectVersion": 1,
+	"AppIdentifier": "com.telerik.RedhandFE",
+	"DisplayName": "RedhandFE",
+	"Author": "",
+	"Description": "RedhandFE",
+	"BundleVersion": "1.0",
+	"AndroidVersionCode": "1",
+	"iOSDeviceFamily": [
+		"1",
+		"2"
+	],
+	"iOSBackgroundMode": [
+		"location"
+	],
+	"WP8TileTitle": "",
+	"WP8Publisher": "",
+	"WP8Capabilities": [
+		"ID_CAP_IDENTITY_DEVICE",
+		"ID_CAP_IDENTITY_USER",
+		"ID_CAP_LOCATION",
+		"ID_CAP_NETWORKING",
+		"ID_CAP_PUSH_NOTIFICATION"
+	],
+	"WP8Requirements": [],
+	"WP8PublisherID": "{97d3d57f-b33c-4480-8c9a-bb7c12bdd17b}",
+	"WP8ProductID": "{d28a50ed-80f5-4488-9d90-64cb1d21f7b4}",
+	"ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+	"FrameworkVersion": "3.5.0",
+	"CorePlugins": [
+		"org.apache.cordova.device",
+		"org.apache.cordova.dialogs",
+		"org.apache.cordova.globalization",
+		"org.apache.cordova.network-information",
+		"org.apache.cordova.vibration"
+	],
+	"AndroidPermissions": [
+		"android.permission.VIBRATE",
+		"android.permission.ACCESS_COARSE_LOCATION",
+		"android.permission.ACCESS_FINE_LOCATION",
+		"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+		"android.permission.INTERNET",
+		"android.permission.RECEIVE_SMS",
+		"android.permission.WRITE_EXTERNAL_STORAGE",
+		"android.permission.ACCESS_NETWORK_STATE",
+		"android.permission.ACCOUNT_MANAGER",
+		"android.permission.GET_ACCOUNTS",
+		"android.permission.MANAGE_ACCOUNTS"
+	],
+	"DeviceOrientations": [
+		"Portrait",
+		"Landscape"
+	],
+	"AndroidHardwareAcceleration": "false",
+	"iOSStatusBarStyle": "Default",
+	"WP8SupportedResolutions": [
+		"ID_RESOLUTION_WVGA",
+		"ID_RESOLUTION_WXGA",
+		"ID_RESOLUTION_HD720P"
+	],
+	"Framework": "Cordova"
 }
