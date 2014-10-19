@@ -7,14 +7,23 @@
     // create an object to store the models for each view
     window.APP = {
       models: {
-        home: {
-          title: 'Home'
+        welcome: {
+          title: 'welcome'
         },
-        settings: {
-          title: 'Settings'
+        registration: {
+          title: 'registration'
         },
-        signout: {
-          title: 'Sign Out',
+        redhandid: {
+          title: 'redhandid'
+        },
+        share: {
+          title: 'share'
+        },
+        notifications: {
+          title: 'notifications'
+        },
+        notificationdetails: {
+          title: 'notificationdetails'
         }
       }
     };
@@ -45,7 +54,7 @@
         skin: 'flat',
 
         // the application needs to know which view to load first
-        initial: 'views/home.html'
+        initial: 'views/notifications.html'
       });
     }, false);
 }());
